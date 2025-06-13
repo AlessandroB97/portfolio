@@ -7,21 +7,8 @@
 ### Link
 https://alessandrobravi.github.io/portfolio/
 
-#### I am a full stack developer who enjoys working on APIs and UX. 
-
-#### The wireframe of my portfolio was built early on in my Bootstrap days. I will be building out a new portfolio soon with Gatsby probably. 
+#### I'm a passionate and versatile IT Developer with hands-on experience in developing robust web and mobile applications. My expertise lies in building scalable enterprise-level applications using Java with ZK Framework and C# with Angular, crafting mobile solutions using NativeScript and Flutter, and developing low-code business applications with Microsoft D365. I thrive on solving complex challenges with clean, maintainable code and user-centered design.
 
 ### My skills
 
-#### Vue, React, Javascript, Node, Boostrap, Mongo, MySQL, Express, Jquery, HTML, CSS, JSON, AJAX, Gatsby, MongoDB, and PostgreSQL.
-
-
-### Projects I am working on: 
-
-#### Recently I worked full time as a website coordinator for Sokal. I built and maintained components on our 150+ websites. Most of their websites are car dealerships. 
-#### I then worked a short stint with a start up in the Credit Union space, developing a platform containing single page apps that Credit Unions could customize for their purposes. I mainy debugged Javascript code and developed our documentation while I was there.
-#### I now heading up development on a family member's ecommerce website. The site is built on NodeJS, Express, React, and PostgreSQL (containing the inventory).
-
-
-
-
+#### Angular, Bootstrap, C#, CSS3, Flutter, HTML5, JavaEE, Javascript, Jquery, Liquid, Maven, Microsoft 365, MongoDB, Microsoft SQL Server, Nativescript, NodeJS, PostgreSQL, Power Apps, Power Automate, Power Platform, Typescript and ZK Framework.
