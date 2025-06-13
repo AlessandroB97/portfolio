@@ -1,11 +1,11 @@
 # Hello!
 
-## My name is Ryan Brown
+## My name is Alessandro Bravi
 
 #### This repo is for my portfolio page:  
 
 ### Link
-https://ryannbrown.github.io/portfolio/
+https://alessandrobravi.github.io/portfolio/
 
 #### I am a full stack developer who enjoys working on APIs and UX. 
 
