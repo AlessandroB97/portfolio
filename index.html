@@ -1,27 +1,403 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Alessandro Bravi - Full-Stack Developer </title>
+    <link href="https://fonts.googleapis.com/css?family=Thasadith:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>This is where you can introduce yourself.</p>
-        </section>
-        <section>
-            <h2>Projects</h2>
-            <p>Showcase your projects here.</p>
-        </section>
-    </main>
+    <!--Brief Description-->
+
+
+    <nav>
+        <div class="nav-wrapper" id="home">
+            <ul id="nav-mobile" class="left">
+                <li><a href="#">Home</a></li>
+                <li><a href="#skill-nav">Skills</a></li>
+                <li><a href="#projects-nav">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="intro">
+        <img class="avatar" src="img/Alessandro.jpg" alt="Alessandro Bravi">
+        <h2 class="headline">Alessandro Bravi</h2>
+        <h7> Based in Foligno (PG), Italy </h7>
+        <br>
+        <br>
+        <h5> Hello! My name is Alessandro.</h5>
+        <h5>I'm a Full-Stack Developer based in Italy with experience in JavaEE,
+            Angular and Flutter. I build scalable web and mobile applications and enjoy working in agile, multicultural
+            teams. I'm proactive, fast-learning, and passionate about solving complex problems with clean code.</h5>
+        <a href="https://www.linkedin.com/in/alessandro-bravi-dev/" target="_blank">
+            <h1 class="fab fa-linkedin"></h1>
+        </a>
+        <a href="https://github.com/AlessandroB97" target="_blank">
+            <h1 class="fab fa-github"></h1>
+        </a>
+        <br>
+        <br>
+        <a href="https://drive.google.com/file/d/1Sux6L3AFvlJ_gx-F-CcPbt7WamI_p655/view?usp=sharing"
+            target=_blank><button class="btn btn-danger">Resume</button></a>
+
+
+    </div>
+
+    <!--skills-->
+
+    <div class="container grid-container">
+
+        <div class="row skills">
+            <h2 class="center-align skill-text" id="skill-nav">SKILLS</h2>
+        </div>
+        <div class="row text-center">
+            <div class="col col-md-3 sm-3 img-responsive"><img class="java-img skillz" style="width:65%;"
+                    src="img\java.png" title="JavaEE"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="html-img skillz" style="width:70%;"
+                    src="img\html5.png" title="HTML5"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="css-img skillz" style="width:50%;"
+                    src="img\css3.png" title="CSS3"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="js-img skillz" style="width:73%;"
+                    src="img\javascript.png" title="JavaScript"></div>
+        </div>
+        <div class="row text-center">
+            <div class="col col-md-3 sm-3 img-responsive"><img class="angular-img skillz" style="width:70%;"
+                    alt="angular" src="img\angular.png" title="Angular"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="typescript skillz" style="width:70%;"
+                    alt="typescript" src="img/typescript.png" title="TypeScript"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="jquery-img skillz" style="width:70%;" alt="jquery"
+                    src="img/jquery.png" title="JQuery"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="bootstrap-img skillz" style="width:70%;"
+                    alt="bootstrap" src="img/bootstrap.png" title="Bootstrap"></div>
+        </div>
+        <div class="row text-center">
+            <div class="col col-md-3 sm-3 img-responsive"><img class="m365-img skillz" style="width:70%;" alt="M365"
+                    src="img\M365.png" title="Microsoft 365"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="power-platform-img skillz" style="width:70%;"
+                    alt="power-platform" src="img/power-platform.png" title="Microsoft Power Platform"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="power-apps-img skillz" style="width:70%;"
+                    alt="power-apps" src="img/power-apps.png" title="Microsoft Power Apps"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="power-automate-img skillz" style="width:70%;"
+                    alt="power-automate" src="img/power-automate.png" title="Microsoft Power Automate"></div>
+        </div>
+        <div class="row text-center">
+            <div class="col col-md-3 sm-3 img-responsive"><img class="flutter-img skillz" style="width:75%;"
+                    alt="flutter" src="img/flutter.png" title="Flutter"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="nativescript-img skillz" style="width:80%;"
+                    alt="nativescript" src="img/nativescript.png" title="Nativescript"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="liquid-img skillz" style="width:75%;" alt="liquid"
+                    src="img/liquid.png" title="Liquid"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="zk-img skillz" style="width:80%;" alt="zk"
+                    src="img/zk.png" title="ZK Framework"></div>
+        </div>
+        <div class="row text-center">
+            <div class="col col-md-3 sm-3 img-responsive"><img class="node-img skillz" style="width:75%;" alt="node.js"
+                    src="img/nodejs.png" title="NodeJS"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="mongo-img skillz" style="width:80%;" alt="mongodb"
+                    src="img/mongodb.png" title="MongoDB"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="postgresql-img skillz" style="width:75%;"
+                    alt="postgresql" src="img/postgresql.png" title="VUE"></div>
+            <div class="col col-md-3 sm-3 img-responsive"><img class="mssql-img skillz" style="width:80%;" alt="mssql"
+                    src="img/mssql.png" title="Microsoft SQL Server"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- <div class="container grid-container"> -->
+    <div class="container grid-container">
+
+        <div class="row skills" id="projects-nav">
+            <h2 class="center-align skill-text">PROJECTS</h2>
+        </div>
+    </div>
+    <div class="card">
+
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/music-player.png">
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Music Player<i
+                    class="material-icons right">info_outline</i></span>
+            <p><a href="https://github.com/AlessandroB97/portfolio" target="_blank">TODO: Github Repo</a></p>
+            </div>
+        <br>
+        <div class="card-reveal">
+            <h1 class="card-title grey-text text-darken-4">Music Player<i class="material-icons right">close</i></h1>
+            <h1>Introduction</h1>
+
+            <p>During my training period, I developed a music player
+                application as a personal project to strength my
+                understanding of mobile development and multimedia
+                handling. The app allows users to browse and play local
+                audio files, manage playlists and view track metadata such
+                as album art and artist information. This project was an
+                opportunity to apply core development concepts, enhance
+                user experience design skills.</p>
+
+            <h1>Technologies Used</h1>
+
+            <h2> Front-end </h2>
+            <ul>
+                <li>Nativescript</li>
+                <li>SCSS</li>
+                <li>Typescript</li>
+                <li>Bootstrap</li>
+            </ul>
+
+            <h2>Back End</h2>
+            <ul>
+                <li>Node.js</li>
+                <li>Typescript</li>
+                <li>MongoDB</li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="card">
+
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/maint-tree.png">
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Maint-tree<i
+                    class="material-icons right">info_outline</i></span>
+            <p><a href="https://github.com/bryvl/project-2" target="_blank">Github Repo</a></p>
+            <p><a href="https://gentle-forest-99048.herokuapp.com/#/" target="_blank">Live Link</a></p>
+        </div>
+        <br>
+        <div class="card-reveal">
+            <h1 class="card-title grey-text text-darken-4">Maint-tree<i class="material-icons right">close</i></h1>
+            <h1>Introduction</h1>
+
+            <p>Maint-Tree is the BTREE product for managing
+                company assets, plant maintenance and operator
+                interventions. It allows you to check the status and
+                location of resources, plan and record maintenance
+                interventions, monitor workloads, material and spare
+                parts commitments, track operations performed
+                and much more.</p>
+
+            <h1>Technologies Used</h1>
+
+            <h2> Front-end </h2>
+            <ul>
+                <li>ZK Framework</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+            </ul>
+
+            <h2>Back End</h2>
+            <ul>
+                <li>JavaEE</li>
+                <li>JQuery</li>
+                <li>Maven</li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>Javascript</li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="card">
+
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/legal-audit.png">
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Legal Audit Project<i
+                    class="material-icons right">info_outline</i></span>
+        </div>
+        <br>
+        <div class="card-reveal">
+            <h1 class="card-title grey-text text-darken-4">Legal Audit Project<i class="material-icons right">close</i>
+            </h1>
+            <h1>Introduction</h1>
+
+            <p>This project is a software for
+                statutory auditors. It is not only
+                aligned with the specific legal
+                framework, but faithfully follows all
+                the steps outlined in the mandatory
+                training for auditors.</p>
+
+            <h1>Technologies Used</h1>
+
+            <h2> Front-end </h2>
+            <ul>
+                <li>.Net Framework</li>
+                <li>Angular</li>
+                <li>C#</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>SCSS</li>
+            </ul>
+
+            <h2>Back End</h2>
+            <ul>
+                <li>.Net Framework</li>
+                <li>C#</li>
+                <li>Angular</li>
+                <li>Bootstrap</li>
+                <li>Microsoft SQL Server</li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="card">
+
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/apsia.png">
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Apsia Project<i
+                    class="material-icons right">info_outline</i></span>
+        </div>
+        <br>
+        <div class="card-reveal">
+            <h1 class="card-title grey-text text-darken-4">Apsia Project<i class="material-icons right">close</i>
+            </h1>
+            <h1>Introduction</h1>
+
+            <p>As External Consultant, I contributed to the
+                development and deployment of a
+                comprehensive financial management
+                system aimed at digitizing and harmonizing
+                financial activities across multiple
+                international subsidiaries. This initiative
+                involved implementing a cloud-based
+                enterprise resource planning (ERP) platform
+                to enhance productivity, agility, and
+                adaptability within the finance division. The
+                project successfully migrated operations in
+                25 countries within a timeframe of one to
+                five months per country, resulting in more
+                reliable and expedited financial processes.
+                This transformation allowed finance teams
+                to devote less time to repetitive tasks and
+                focus more on providing analysis based on
+                reliable, consistent, real-time, and easily
+                accessible data.</p>
+
+            <h1>Technologies Used</h1>
+
+            <h2> Front-end </h2>
+            <ul>
+                <li>Power Platform</li>
+                <li>Power Apps</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>Liquid</li>
+            </ul>
+
+            <h2>Back End</h2>
+            <ul>
+                <li>Power Platform</li>
+                <li>Power Apps</li>
+                <li>Javascript</li>
+                <li>Power Automate</li>
+                <li>.Net Framework</li>
+                <li>C#</li>
+                <li>MySQL</li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="card">
+
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/wave-tree.png">
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Wave-tree<i
+                    class="material-icons right">info_outline</i></span>
+        </div>
+        <br>
+        <div class="card-reveal">
+            <h1 class="card-title grey-text text-darken-4">Wave-tree<i class="material-icons right">close</i>
+            </h1>
+            <h1>Introduction</h1>
+
+            <p>Wave-Tree allows the management and control of
+                real-time production progress. It is a lean and
+                effective tool for following the work in progress of
+                phases and materials and receiving data on
+                activities from machinery or from declarations of
+                human resources on board the machine. The
+                completely web and “touch ready” interface allows
+                operators to declare in real time all the process
+                information that cannot be automatically detected
+                (setup, production, unloading of input materials and
+                declaration of output materials, scraps, human
+                resources, etc.).</p>
+
+            <h1>Technologies Used</h1>
+
+            <h2> Front-end </h2>
+            <ul>
+                <li>ZK Framework</li>
+                <li>Flutter</li>
+                <li>Typescript</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+            </ul>
+
+            <h2>Back End</h2>
+            <ul>
+                <li>JavaEE</li>
+                <li>JQuery</li>
+                <li>Maven</li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>Microsoft SQL Server</li>
+                <li>Javascript</li>
+                <li>Typescript</li>
+                <li>MongoDB</li>
+            </ul>
+            <h2>APIs Used:</h2>
+            <ul>
+                <li>Project's custom APIs</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
     <footer>
-        <p>&copy; 2025 - Alessandro Bravi</p>
+        <div class="contact" id="contact">
+            <h2>CONTACT</h2>
+            <h2><i class="fa fa-envelope"></i> alessandro.bravi@outlook.com</h2>
+            <h2><i class="fa fa-phone"></i> +39 333 583 0566</h2>
+            <h2>
+                <a href="https://www.linkedin.com/in/alessandro-bravi-dev/" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </h2>
+        </div>
     </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </body>
+
 </html>
