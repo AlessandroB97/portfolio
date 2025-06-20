@@ -19,11 +19,14 @@
 @media (min-width: 992px) {
 	nav.navbar {
 		background-color: rgb(46, 88, 68) !important;
-		color: whitesmoke;
 		position: fixed;
 		top: 0;
 		z-index: 999;
 
+	}
+
+	.avatar {
+		width: 250px;
 	}
 }
 
@@ -35,6 +38,14 @@
 		top: 0;
 		z-index: 999;
 
+	}
+
+	.avatar {
+		width: 150px;
+	}
+
+	nav .dropdown-item {
+		color: whitesmoke !important;
 	}
 
 	:root {
@@ -53,9 +64,13 @@ nav .navbar-brand {
 	color: whitesmoke;
 }
 
-nav .nav-link,
+nav .nav-link {
+	font-size: 1.5em;
+}
+
 nav .dropdown-item {
 	font-size: 1.5em;
+	color: whitesmoke;
 }
 
 nav .dropdown-item {
@@ -90,6 +105,7 @@ body {
 	padding: 75px;
 	align-content: center;
 	min-height: 200px;
+	width: 80%;
 
 	align-self: center;
 	margin-right: auto;
@@ -111,7 +127,6 @@ h5 {
 
 
 .avatar {
-	width: 250px;
 	border-radius: 50%;
 }
 
@@ -207,6 +222,7 @@ button:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .card-reveal .h1 {
 	font-size: 1em;
 }
